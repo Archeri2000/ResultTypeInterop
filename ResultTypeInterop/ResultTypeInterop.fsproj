@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Library</OutputType>
+        <TargetFramework>netcoreapp3.0</TargetFramework>
+        <RootNamespace>ResultTypeInterop</RootNamespace>
+        <Authors>archery2000</Authors>
+        <Description>A library for Interop between F# and C# Result, Async and List types</Description>
+        <Copyright>archery2000</Copyright>
+        <PackageProjectUrl>https://github.com/archery2000/ResultTypeInterop</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/archery2000/ResultTypeInterop.git</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <Version>0.0.1</Version>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="AsyncInterop.fs" />
+        <Compile Include="ResultInterop.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="CSharp-Result" Version="0.0.2" />
+    </ItemGroup>
+
+</Project>

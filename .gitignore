@@ -1,0 +1,6 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/*
+ResultTypeInterop.sln.DotSettings.user
+ResultTypeInterop/bin/*
+ResultTypeInterop/obj/*
+global.json
