@@ -73,24 +73,24 @@ let fsasync = task.AsAsync()
 
 // F# Result to C# and back
 let res = Ok 1
-let csres = FSharpConvert.ToCSharpResult(res);
+let csres = FSharpConvert.ToCSharpResult res;
 let fsres = csres.ToFSharpResult();
 
 // C# Async Result to F# and back
 let res = async{
             return Ok 1
         }
-let csres = FSharpConvert.ToCSharpAsyncResult(res);
+let csres = FSharpConvert.ToCSharpAsyncResult res;
 let fsres = csres.ToFSharpAsyncResult();
 
 // C# Result List to F# and back
 let resList: Result<int, exn> list = [];
-let csres = FSharpConvert.ToCSharpResultList(resList);
+let csres = FSharpConvert.ToCSharpResultList resList;
 let fsList = csres.ToFSharpResultList();
 
 // C# Async Result List to F# and back
 let resList: Async<Result<int, exn>> list = [];
-let csres = FSharpConvert.ToCSharpAsyncResultList(resList);
+let csres = FSharpConvert.ToCSharpAsyncResultList resList;
 let fsList = csres.ToFSharpAsyncResultList();
 ```
 
