@@ -11,12 +11,13 @@
         <RepositoryUrl>https://github.com/archery2000/ResultTypeInterop.git</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
-        <Version>0.0.1</Version>
+        <Version>0.0.2</Version>
     </PropertyGroup>
 
     <ItemGroup>
         <Compile Include="AsyncInterop.fs" />
         <Compile Include="ResultInterop.fs" />
+        <Compile Include="ResultChainInterop.fs" />
     </ItemGroup>
 
     <ItemGroup>
