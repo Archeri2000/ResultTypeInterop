@@ -2,18 +2,18 @@
 
 A library for Interop between F# and C# Result, Async and List types.
 
-Latest Version: 0.0.1
+Latest Version: 0.0.2
 
 # Getting Started
 
 Install via Nuget
 ```bash
-$ dotnet add package ResultTypeInterop --version 0.0.1
+$ dotnet add package ResultTypeInterop --version 0.0.2
 ```
 
 Install via Package Manager
 ```bash
-Install-Package ResultTypeInterop -Version 0.0.1
+Install-Package ResultTypeInterop -Version 0.0.2
 ```
 
 # Usage
@@ -104,6 +104,7 @@ We use [SemVer](https://semver.org/) for versioning. For the versions available,
 ## Changelog
 | Version | Changes |
 |---|---|
+|0.0.2|Add C# Result support for FSharpFunc
 |0.0.1|Initial Release.
 
 ## Authors
